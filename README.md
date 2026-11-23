@@ -19,6 +19,7 @@ depletions as a function of day of year, longitude, local time and F10.7.
 |---|---|
 | `ibp_single_model_share/` | Library interface (`IBP_INIT`, `IBP_PROBABILITY`) for embedding in a host model, an interactive program and a self-checking test. Start here. |
 | `ibp_model_f77/` | Standalone single-run (`pbsingle`) and batch (`pbbatch`) programs. |
+| `IBP Plots/`, `ibp plots1/`, `ibp plots 2/`, `scripts tried but../` | Earlier exploratory climatology plots and scripts (not part of the paper). |
 | `validation/` | Comparison against the official Python package, an independent Python reference, the coefficient converter and the scripts that produce the paper's figures. See `validation/README.txt`. |
 
 ## Quick start

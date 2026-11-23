@@ -1,12 +1,35 @@
+# ---- Manuscripts, submission files and papers (private) ----
+*.docx
+*.docx.*
+*.pdf
+!validation/figures/*.pdf
+ASR_submission/
+_backups/
+*.zip
+
+# ---- Not ours to publish / kept private ----
+Bubble probability model/
+ibp-model/
+github_ibp-fortran77/
+.claude/
+
+# ---- Build products ----
 *.o
 *.a
 *.mod
-pbsingle
-pbbatch
-test_ibp
-ibp_dump
-ibp_components
+ibp_model_f77/pbsingle
+ibp_model_f77/pbbatch
+ibp_single_model_share/pbsingle
+ibp_single_model_share/test_ibp
+validation/ibp_dump
+validation/ibp_components
+**/ibp_climatology/pbbatch
+**/ibp_figure_reproduction/pbbatch
+
+# ---- System / Python ----
+.DS_Store
 __pycache__/
 *.pyc
-.DS_Store
-figures/
+
+# ---- Fortran 90 original (kept private, as for the paper) ----
+*.f90
