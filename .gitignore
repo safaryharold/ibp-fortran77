@@ -1,0 +1,12 @@
+*.o
+*.a
+*.mod
+pbsingle
+pbbatch
+test_ibp
+ibp_dump
+ibp_components
+__pycache__/
+*.pyc
+.DS_Store
+figures/
