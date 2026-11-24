@@ -136,3 +136,15 @@ online. Use the local run above until CCMC adds parameter 92.
 
 Stolle, C., et al., 2024. Space Weather 22, e2023SW003809.
 The accompanying paper describing this implementation is under review.
+
+## Citing this code
+
+If you use this implementation, please cite it together with Stolle et al.
+(2024). Citation details are in [`CITATION.cff`](CITATION.cff); GitHub's
+"Cite this repository" button (right-hand sidebar) gives them in APA and
+BibTeX form.
+
+## License
+
+Released under the [MIT License](LICENSE). The IBP model coefficients come
+from the official IBP v2.0.2 release (Stolle et al., 2024).
