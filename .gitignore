@@ -33,3 +33,6 @@ __pycache__/
 
 # ---- Fortran 90 original (kept private, as for the paper) ----
 *.f90
+
+# IRI-2026 download/build area created by iri2026/run_iri2026_ibp.sh
+iri2026/IRI-2026-build/
