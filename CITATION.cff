@@ -8,8 +8,8 @@ abstract: >-
   longitude, local time and F10.7, using the official IBP v2.0.2 coefficients.
 type: software
 authors:
-  - given-names: Safary
-    family-names: Harold
+  - given-names: Harold
+    family-names: Safary
 version: "1.0.0"
 date-released: "2026-11-24"
 license: MIT
