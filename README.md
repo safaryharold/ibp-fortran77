@@ -26,7 +26,7 @@ depletions as a function of day of year, longitude, local time and F10.7.
 | `ibp_model_f77/` | Standalone single-run (`pbsingle`) and batch (`pbbatch`) programs. |
 | `iri2026/` | Script, `iritest` input and a demo program for getting the IBP output from IRI-2026. |
 | `docs/iri2026/` | Snapshots and the comparison figure used in this README. |
-| `IBP Plots/`, `ibp plots1/`, `ibp plots 2/`, `scripts tried but../` | Earlier exploratory climatology plots and scripts (not part of the paper). |
+| `IBP Plots/`, `ibp plots1/`, `ibp plots 2/` | Earlier exploratory climatology plots and scripts (not part of the paper). |
 | `validation/` | Comparison against the official Python package, an independent Python reference, the coefficient converter and the scripts that produce the paper's figures. See `validation/README.txt`. |
 
 ## Quick start
